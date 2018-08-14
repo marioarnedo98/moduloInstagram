@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1.0" client="site" method="upgrade">
+    <name>Modulo de instagram</name>
+    <author>Emesa</author>
+    <version>1.0.0</version>
+    <description>Para acceder a tu token entra en http://instagram.pixelunion.net/ y para tu id de usario http://www.bufa.es/instagram-obtener-id-usuario/</description>
+    <files>
+        <filename>mod_esinstagram.xml</filename>
+        <scriptfile>script.php</scriptfile>
+        <filename module="mod_esinstagram">mod_esinstagram.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <filename>javas/custom.js</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename> 
+        <folder>css</folder>
+        <folder>javas</folder>
+    </files>
+
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field
+                    name="access_token"
+                    type="text"
+                    label="Inserta el codigo de la app de instagram"                   
+                    />
+                    <field 
+                    name="nombre_usuario"
+                    type="text"
+                    label="Inserta tu numero de usuario: "
+                    />
+            </fieldset>
+        </fields>
+    </config>
+</extension>
+
+
+

@@ -1,0 +1,33 @@
+body {
+    padding-top: 5vh;
+}
+
+#instafeed {
+    margin: 0;
+    padding: 0;
+}
+
+#instafeed a {
+    display: block;
+    width: 50%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    max-height: 150px;
+    overflow: hidden;
+}
+
+#instafeed img {
+    width: 100%;
+}
+
+.instaimg img:hover {
+    opacity: 0.8;
+    -moz-opacity: 0.8;
+    -webkit-opacity: 0.8;
+}
+
+h1,
+h3 {
+    padding: 5vh;
+}
